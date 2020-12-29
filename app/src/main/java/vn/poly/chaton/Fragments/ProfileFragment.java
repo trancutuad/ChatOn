@@ -80,7 +80,7 @@ public class ProfileFragment extends Fragment {
                 username.setText(user.getUsername());
 
                 if (user.getImageURL().equals("default")) {
-                    image_profile.setImageResource(R.drawable.ic_action_users);
+                    image_profile.setImageResource(R.drawable.userprofile);
                 } else {
                     Picasso.with(getContext()).load(user.getImageURL()).into(image_profile);
                 }

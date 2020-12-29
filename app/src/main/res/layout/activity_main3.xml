@@ -17,15 +17,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:textColor="#E30E0E"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:id="@+id/abc"
+                android:text="🍀Welcome🍀   "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_launcher_background"
+                android:src="@drawable/userprofile"
                 android:id="@+id/profile_image"/>
 
             <TextView
                 android:textStyle="bold"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="24dp"
                 android:id="@+id/tvusername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

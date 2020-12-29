@@ -34,6 +34,19 @@
         android:hint="Password"
         android:layout_height="wrap_content"/>
 
+    <LinearLayout
+        android:layout_gravity="fill_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <CheckBox
+        android:textColor="#535353"
+        android:textStyle="italic"
+        android:id="@+id/checkbox"
+        android:text="save email and password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+    </LinearLayout>
+
     <androidx.appcompat.widget.AppCompatButton
         android:text="Sign in"
         android:id="@+id/btn_dangnhap"

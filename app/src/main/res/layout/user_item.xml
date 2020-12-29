@@ -6,6 +6,7 @@
     android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:paddingLeft="0dp"
         android:id="@+id/profile_image"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -14,7 +15,7 @@
         android:paddingLeft="10dp"
         android:id="@+id/username"
         android:layout_toRightOf="@id/profile_image"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="15dp"
         android:text="Username"
